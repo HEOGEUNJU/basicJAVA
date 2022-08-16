@@ -1,6 +1,6 @@
 package Exercise_java;
 
-public class excercise3 {
+public class exercise3 {
 
 	public static void main(String[] args) {
 

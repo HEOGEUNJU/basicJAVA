@@ -2,7 +2,7 @@ package chapter05;
 
 import java.util.Scanner;
 
-public class confirm06 {
+public class confirm06_01 {
 
 	public static void main(String[] args) {
 		boolean run = true;
@@ -40,15 +40,15 @@ public class confirm06 {
 						max = scores[i];
 					}
 					sum += scores[i];
-				}
-				avg = (double) sum / studentNum;
-				System.out.println("최고점수 : " + max);
-				System.out.println("평균점수 : " + avg);
-			} else if (selectNo == 5) {
+					avg = (double)sum/studentNum;
+				} 
+				System.out.println("최고 점수 : " +max);
+				System.out.println("평균 점수 : " +avg);
+			} else if (selectNo == 5) { 
 				run = false;
 			}
 		}
-
 		System.out.println("프로그램 종료");
 	}
+
 }
