@@ -9,7 +9,7 @@ public class WhilePrintFrom1To10Example {
 		while (i <= 10) {
 			System.out.println("*");;
 			i++;
-			System.out.println(sum);
+			
 		}
 	}
 
