@@ -1,6 +1,5 @@
 package Exercise_java;
 
-import java.util.LinkedList;
 
 public class exercise8 {
 	public static void main(String[] args) {

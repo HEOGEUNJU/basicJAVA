@@ -7,7 +7,7 @@ public class exercise5 {
 		int i = 0;
 		int j = 0;
 		while (i <= 10) {
-			while (j - 1 < i) {
+			while (j  <= i) {
 //			if (j<i) {
 //				System.out.print("*");			
 //				if (j>i) {
@@ -18,7 +18,7 @@ public class exercise5 {
 				j++;
 			}
 			System.out.printf("\n");
-			j = 0;
+			j=0;
 			i++;
 		}
 

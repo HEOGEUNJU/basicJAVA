@@ -7,9 +7,8 @@ public class exercise47 {
 	public static void main(String[] args) {
 		Random random = new Random();
 
-		int num[] = { random.nextInt(45) + 1, random.nextInt(45) + 1, random.nextInt(45) + 1,
-					  random.nextInt(45) + 1, random.nextInt(45) + 1, 
-					  random.nextInt(45) + 1, random.nextInt(45) + 1 };
+		int num[] = { random.nextInt(45) + 1, random.nextInt(45) + 1, random.nextInt(45) + 1, random.nextInt(45) + 1,
+				random.nextInt(45) + 1, random.nextInt(45) + 1, random.nextInt(45) + 1 };
 		Arrays.sort(num);
 		int k = random.nextInt(45) + 1;
 
@@ -22,5 +21,4 @@ public class exercise47 {
 			}
 		}
 	}
-
 }
