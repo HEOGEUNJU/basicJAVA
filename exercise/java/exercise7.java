@@ -1,4 +1,4 @@
-package Exercise_java;
+package exercise.java;
 
 public class exercise7 {
 //각 변들의 최대값 구하기

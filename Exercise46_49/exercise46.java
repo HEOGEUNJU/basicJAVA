@@ -1,4 +1,4 @@
-package Exercise46_49;
+package exercise46_49;
 
 public class exercise46 {
 	public static void main(String[] args) {
