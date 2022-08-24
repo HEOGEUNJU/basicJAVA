@@ -27,12 +27,13 @@ public class Car {
 		this.color = color;
 	}
 	public boolean speedUp(double speed) {
-		if(speed + this.speed >= 0 && speed + this.speed <= MAX_SPEED) {
-			this.speed += speed;
+		double d = speed + this.speed;
+		if(d >= 0 && d <= MAX_SPEED) {
+			this.speed = d;
 			return true;
-		}else {
-			return false;
 		}
+			return false;
+		
 	}
 	public static double getMaxSpeed() {
 		return MAX_SPEED;

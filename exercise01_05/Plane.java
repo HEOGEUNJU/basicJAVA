@@ -2,31 +2,31 @@ package exercise01_05;
 
 public class Plane {
 	// 필드
-	private String manufacture;
+	private String manufacturer;
 	private String model;
 	private int maxNumberOfPassengers;
-	private static int numberOfPlanes;
+	private static int numberOfPlanes; //static이 붙어 있는 필드나 메소드는 클래스의 구성원이 아님
 
-	// 생성자
+	// 생성자  
 	Plane() {
 		numberOfPlanes++;
 	}
 
-	Plane(String manufacture, String model, int maxNumberOfPassengers) {
-		this.manufacture = manufacture;
+	Plane(String manufacturer, String model, int maxNumberOfPassengers) {
+		this();
+		this.manufacturer = manufacturer;
 		this.model = model;
 		this.setMaxNumberOfPassengers(maxNumberOfPassengers);
 		// this.maxNumberOfPassengers = maxNumberOfPassengers;
-		numberOfPlanes++;
 	}
 
 	// 메소드
-	public String getManufacture() {
-		return manufacture;
+	public String getManufacturer() {
+		return manufacturer;
 	}
 
-	public void setManufacture(String manufacture) {
-		this.manufacture = manufacture;
+	public void setManufacturer(String manufacturer) {
+		this.manufacturer = manufacturer;
 	}
 
 	public String getModel() {
@@ -44,9 +44,7 @@ public class Plane {
 	public void setMaxNumberOfPassengers(int maxNumberOfPassengers) {
 		if (maxNumberOfPassengers >= 0) {
 			this.maxNumberOfPassengers = maxNumberOfPassengers;
-		} else {
-			this.maxNumberOfPassengers = 0;
-		}
+		} 
 	}
 
 	public static int getNumberOfPlanes() {
@@ -54,7 +52,7 @@ public class Plane {
 	}
 
 	public String toString() {
-		return manufacture;
+		return manufacturer;
 
 	}
 }

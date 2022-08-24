@@ -4,7 +4,7 @@ public class NewCar {
 	//필드
 		private double speed;
 		private String color;
-		private static final double MAX_SPEED = 200.0/1.6;
+		private static final double MAX_SPEED = killoToMile(200);
 		
 		//생성자
 		public NewCar(){		
