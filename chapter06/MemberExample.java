@@ -11,7 +11,7 @@ public class MemberExample {
 		Member member = new Member();
 		member.name = "최하얀";
 		member.age = 23;
-		System.out.println(member.name);
+		System.out.println(member.age + member.name);
 		
 		new Member();
 	}

@@ -11,7 +11,7 @@ public class pencils {
 		
 		int percilsLaft = pencils % students;
 		
-		System.out.println(pencilsLaft);
+		System.out.println(percilsLaft);
 	}
 
 }

@@ -20,7 +20,6 @@ public class ArrayCreateByValueListExample2 {
 
 		int sum2 = add(new int[] { 83, 90, 87 });
 		System.out.println("총합 : " + sum2);
-
 	}
 
 	public static int add(int[] scores) {

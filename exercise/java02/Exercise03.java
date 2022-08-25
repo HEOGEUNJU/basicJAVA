@@ -14,12 +14,12 @@ public class Exercise03 {
 			int tmp = 0;
 			
 			
-			
+		System.out.println();
 		}
 		//배열 ballArr의 앞에서 3개의 수를 배열 ball3로 복사한다.
 		
 		for(int i = 0; i <ball3.length; i++) {
-			System.out.println(ball3[i]);
+			System.out.print(ball3[i]);
 		}
 	}
 

@@ -1,5 +1,7 @@
 package chapter05;
 
+import java.math.RoundingMode;
+
 public class ArrayCreateByValueListExample1 {
 	public static void main(String[] args) {
 		int[] scores = { 83, 90, 87 };
@@ -13,7 +15,7 @@ public class ArrayCreateByValueListExample1 {
 			sum += scores[i];
 		}
 		System.out.println("총합 : " + sum);
-		double avg = (double) sum / 3;
+		double avg = (double) sum / scores.length;
 		System.out.println("평균 : " + avg);
 	}
 }

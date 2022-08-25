@@ -8,8 +8,8 @@ public class ForFloatCounterExample {
 		for(float x=0.1f; x<=1.0f; x+=0.1f) {
 			sum += x;
 			
-			System.out.println(sum);
 		}
+		System.out.println(sum);
 	}
 
 }

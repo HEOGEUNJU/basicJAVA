@@ -3,7 +3,7 @@ package chapter04;
 public class IfStatementExample {
 	public static void main(String[] args) {
 
-		int num = 10;
+		int num = 2;
 //		if(num==1) {
 //			System.out.println("1");
 //		} else if (num==2) {

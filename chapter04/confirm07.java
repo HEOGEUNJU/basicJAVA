@@ -7,6 +7,9 @@ public class confirm07 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		boolean run = true;
+		int money = 0;
+		int money2 = 0;
+		
 		int balance = 0; //잔액
 
 		while (run) {
@@ -18,16 +21,17 @@ public class confirm07 {
 //			System.out.println(select);
 			if (select == 1) {
 				System.out.print("예금액> ");
-				int money = scanner.nextInt();
+				money = scanner.nextInt();
 				
 
 			} else if (select == 2) {
 				System.out.print("출금액> ");
-				int money2 = scanner.nextInt();
+				money2 = scanner.nextInt();
 			
 
 			} else if (select == 3) {
 				System.out.print("잔고> ");
+				balance = money-money2;
 				System.out.println(balance);
 
 			} else {
