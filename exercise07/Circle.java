@@ -19,7 +19,7 @@ public class Circle extends Shape {
 
 	@Override
 	public String toString() {
-		return "도형의 종류: 원, 둘레: " + area() + "cm, 넓이" + perimeter() + "cm2";
+		return "도형의 종류: 원, 둘레: " + area() + "cm, 넓이" + perimeter() + "㎠";
 	}
 	
 }

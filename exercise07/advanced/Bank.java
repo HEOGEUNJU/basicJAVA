@@ -1,4 +1,4 @@
-package exercise07;
+package exercise07.advanced;
 
 public class Bank {
 	//필드

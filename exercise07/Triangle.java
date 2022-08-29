@@ -17,6 +17,6 @@ public class Triangle extends Shape{
 
 	@Override
 	public String toString() {
-		return "도형의 종류: 삼각형, 둘레: " + area() + "cm, 넓이" + perimeter() + "cm2";
+		return "도형의 종류: 삼각형, 둘레: " + area() + "cm, 넓이" + perimeter() + "㎠";
 	}
 }
