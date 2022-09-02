@@ -11,7 +11,6 @@ public class OracleDao implements DataAccessObject{
 	@Override
 	public void insert() {
 		System.out.println("Oracle DB에서 삽입");
-		
 	}
 
 	@Override

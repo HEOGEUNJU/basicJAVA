@@ -19,5 +19,7 @@ public class Student extends Human{
 	public String toString() {
 		return String.format(super.toString()+",전공:"+ major);
 	}
-	
+	public void compareTo(Student student) {
+	}
+
 }

@@ -1,6 +1,6 @@
 package chapter08;
 
-public class MySqlDao implements DataAccessObject{
+public class MySqlDao implements DataAccessObject {
 
 	@Override
 	public void select() {
@@ -21,8 +21,4 @@ public class MySqlDao implements DataAccessObject{
 	public void delete() {
 		System.out.println("MySql DB에서 삭제");
 	}
-
-	
-	
-
 }

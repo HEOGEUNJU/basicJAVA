@@ -1,5 +1,7 @@
 package exercise07;
 
+import exercise08.Shape;
+
 public class Rectangle extends Shape{
 	//필드
 	private double width;
@@ -11,14 +13,24 @@ public class Rectangle extends Shape{
 	}
 	//메소드
 	public double area() {
-		return 2*width + 2*height;	
+		return Math.round((2*width + 2*height)*100)/100.0;	
 	}
 	public double perimeter() {
-		return height*width;
+		return Math.round(height*width*100)/100.0;
 	}
 
 	@Override
 	public String toString() {
 		return "도형의 종류: 사각형, 둘레: " + area() + "cm, 넓이" + perimeter() + "㎠";
+	}
+	@Override
+	public int compareTo(Shape s) {
+		if(this.perimeter()>perimeter()) {  
+			return 1; // 1은 변경
+		}else if(this.perimeter()>perimeter()) {
+			return -1;//-1은 변경X
+		}else {
+			return 0;//넘어감	
+		}
 	}
 }

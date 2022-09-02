@@ -1,12 +1,17 @@
 package chapter07;
 
+import exercise07.Student;
+
 public class People {
 	public String name;
-	public String ssn;	
-
+	public int ssn;	
+	public int studentNo;
 	
-	public People(String name, String ssn) {
+	public People(String name, int studentNo) {
 		this.name = name;
-		this.ssn = ssn;
+		this.studentNo = studentNo;
+	}
+
+	public void compareTo(Student student) {
 	}
 }

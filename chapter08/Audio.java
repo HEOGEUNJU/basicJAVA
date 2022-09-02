@@ -24,5 +24,4 @@ public class Audio implements RemoteControl {
 		}
 		System.out.println("현재 오디오 볼륨: " + this.volume);
 	}
-
 }
