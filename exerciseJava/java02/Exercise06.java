@@ -2,32 +2,29 @@ package exerciseJava.java02;
 
 public class Exercise06 {
 	public static void main(String[] args) {
-		/*  다음은 배열 answer에 담긴 데이터를 읽고 각 숫자의 개수를 세어서 개수만큼
-		 *  '*'을 찍어서 그래프를 그리는 프로그램이다. (1) ~ (2)에 알맞은 코드를 넣어서 완성하시오.
-		*/
-		int[] answer = {1,4,4,3,1,4,4,2,1,3,2};
+		/*
+		 * 다음은 배열 answer에 담긴 데이터를 읽고 각 숫자의 개수를 세어서 개수만큼 '*'을 찍어서 그래프를 그리는 프로그램이다. (1) ~
+		 * (2)에 알맞은 코드를 넣어서 완성하시오.
+		 */
+		int[] answer = { 1, 4, 4, 3, 1, 4, 4, 2, 1, 3, 2 };
 		int[] counter = new int[4];
-		
+
 		for (int i = 0; i < answer.length; i++) {
-			int i2 =answer[i];
+			int i2 = answer[i];
 //			counter[answer[i]-1]++;
-			for (int j = 0; j < i2; j++) {	
+			for (int j = 0; j < i2; j++) {
 				System.out.print("*");
 			}
-		
-			
-		
-		for (int i = 0; i < counter.length; i++) {
-			int j = counter[i];
-			for (int k = 0; k < j; k++) {
+
+			for (int i1 = 0; i1 < counter.length; i1++) {
+				int j = counter[i1];
+				for (int k = 0; k < j; k++) {
+					System.out.println();
+					System.out.print(counter[i1]);
+				}
 				System.out.println();
-				System.out.print(counter[i]);	
 			}
-			System.out.println();
-			
-		}
-		
-	}//end of main
-}
+		} // end of main
+	}
 }
 // end of class
