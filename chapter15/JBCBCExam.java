@@ -18,13 +18,13 @@ public class JBCBCExam {
 		//워크시트를 만드는과정
 		Statement statement = connection.createStatement();
 		String sql = "";
-		sql += " SELECT";
-		sql += "     mem_id,";
-		sql += "     mem_name,";
-		sql += "     mem_hp,";
-		sql += "     mem_mail";
-		sql += " FROM";
-		sql += "     member";
+		sql += " SELECT ";
+		sql += "     mem_id, ";
+		sql += "     mem_name, ";
+		sql += "     mem_hp, ";
+		sql += "     mem_mail ";
+		sql += " FROM ";
+		sql += "     member ";
 		//가장 앞이나 가장 뒤를 한칸을 띄워주고 해야한다.         
 		
 		//3. 쿼리 실행
@@ -41,7 +41,7 @@ public class JBCBCExam {
 			System.out.printf("%s \t %s \t %s \t %s\n", memId, memName, memHp, memMail);
 		}
 		
-		//5. 접속 종료
+		//5. 접속 종료(자원 반납)
 		resultSet.close();
 		statement.close();
 		connection.close();
